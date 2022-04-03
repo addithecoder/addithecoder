@@ -1,1 +1,107 @@
-<mxfile host="app.diagrams.net" modified="2022-04-03T05:25:07.856Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" version="17.2.4" etag="S2pfO4fbk-nzq4zkEPTT" type="github"><diagram id="N2P6ig4AUI4pkwA81TFx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-03T05:41:37.366Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="S0pvOVG9sJIBhZ5tg0fn" version="17.2.4" type="github">
+  <diagram id="N2P6ig4AUI4pkwA81TFx" name="Page-1">
+    <mxGraphModel dx="1065" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bNLmLEVQy64bjiTVcDse-1" value="Student" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bNLmLEVQy64bjiTVcDse-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="490" as="sourcePoint" />
+            <mxPoint x="40" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNLmLEVQy64bjiTVcDse-3" value=":Login" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="30" width="100" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="bNLmLEVQy64bjiTVcDse-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="bNLmLEVQy64bjiTVcDse-3">
+          <mxGeometry x="45" y="90" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bNLmLEVQy64bjiTVcDse-16" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="bNLmLEVQy64bjiTVcDse-15" parent="bNLmLEVQy64bjiTVcDse-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-100" y="90" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNLmLEVQy64bjiTVcDse-4" value=":Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="30" width="100" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="bNLmLEVQy64bjiTVcDse-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="bNLmLEVQy64bjiTVcDse-4">
+          <mxGeometry x="45" y="90" width="10" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="bNLmLEVQy64bjiTVcDse-28" value="Update Attendance On Database&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="bNLmLEVQy64bjiTVcDse-4" source="bNLmLEVQy64bjiTVcDse-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="330" as="sourcePoint" />
+            <mxPoint x="50" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNLmLEVQy64bjiTVcDse-5" value=":Student Homepage" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="30" width="100" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="bNLmLEVQy64bjiTVcDse-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="bNLmLEVQy64bjiTVcDse-5">
+          <mxGeometry x="45" y="90" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="bNLmLEVQy64bjiTVcDse-25" value="Class Not Started" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bNLmLEVQy64bjiTVcDse-5" source="bNLmLEVQy64bjiTVcDse-19" target="bNLmLEVQy64bjiTVcDse-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="170" />
+              <mxPoint x="110" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNLmLEVQy64bjiTVcDse-6" value=":Classroom" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="30" width="100" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="bNLmLEVQy64bjiTVcDse-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="bNLmLEVQy64bjiTVcDse-6">
+          <mxGeometry x="45" y="160" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bNLmLEVQy64bjiTVcDse-7" value=":Attendance Form" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="30" width="100" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="bNLmLEVQy64bjiTVcDse-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="bNLmLEVQy64bjiTVcDse-7">
+          <mxGeometry x="45" y="180" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="bNLmLEVQy64bjiTVcDse-29" value="Fingerprint not found" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bNLmLEVQy64bjiTVcDse-7" source="bNLmLEVQy64bjiTVcDse-27" target="bNLmLEVQy64bjiTVcDse-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="113" y="210" />
+              <mxPoint x="113" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNLmLEVQy64bjiTVcDse-13" value="Login" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="bNLmLEVQy64bjiTVcDse-12" parent="1" source="bNLmLEVQy64bjiTVcDse-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNLmLEVQy64bjiTVcDse-14" value="Incorrect Login Details" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" target="bNLmLEVQy64bjiTVcDse-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="239" as="targetPoint" />
+            <mxPoint x="364.5" y="239" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNLmLEVQy64bjiTVcDse-20" value="Login Accepted" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="bNLmLEVQy64bjiTVcDse-19" parent="1" source="bNLmLEVQy64bjiTVcDse-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNLmLEVQy64bjiTVcDse-23" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="bNLmLEVQy64bjiTVcDse-22" parent="1" source="bNLmLEVQy64bjiTVcDse-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="655" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bNLmLEVQy64bjiTVcDse-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bNLmLEVQy64bjiTVcDse-22" target="bNLmLEVQy64bjiTVcDse-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="210" />
+              <mxPoint x="800" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
